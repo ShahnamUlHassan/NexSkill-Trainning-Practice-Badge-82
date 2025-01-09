@@ -1,0 +1,31 @@
+@media only screen and (max-width: 600px) {
+    .head4{
+        background-color: darkslategray;
+    }
+}
+.name:hover{
+    background-color: aliceblue;
+    color: gainsboro;
+    text-decoration:underline gray solid;
+    width: 10%;
+}
+
+.input:disabled{
+    background-color: azure;
+    text-decoration: underline oldlace solid;
+    color: rgb(143, 164, 165);
+    font-size: 23px;
+}
+h2::first-letter{
+    font-size: 43px;
+    color: darkolivegreen;
+}
+h3::first-line{
+    color: darkolivegreen;
+    font-size: 45px;   
+}
+.input2{
+    background-color: violet;
+    color: teal;
+}
+
