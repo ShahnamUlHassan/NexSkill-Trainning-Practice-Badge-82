@@ -1,0 +1,43 @@
+.name{
+    box-shadow: rgba(97, 63, 63, 0.781) 0px 10px 20px, rgba(136, 132, 132, 0.23) 0px 6px 120px;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+}
+p{
+    line-height: 50px;
+    letter-spacing: 5px;
+    word-spacing: 15px;
+    width: 50%;
+    margin: 0 auto;
+    height: 50%;
+    overflow: scroll;
+}
+.para{
+    visibility: hidden;
+}
+.list{
+    display: inline;
+}
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+    flex-direction: row-reverse;
+}
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px; 
+}
+table.ex1 {
+    empty-cells: hide;
+    border-spacing: 8px;
+}
+  
+  table.ex2 {
+    empty-cells: show;
+    border-collapse: collapse;
+    background-color: rgb(154, 196, 182);
+    border: 3px solid rgb(120, 133, 133);
+}
